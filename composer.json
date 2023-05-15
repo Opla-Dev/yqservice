@@ -1,0 +1,43 @@
+{
+  "name": "opal-dev/yqservice",
+  "version": "1.0",
+  "minimum-stability": "dev",
+  "description": "YQService oem-web-service rest-api sdk",
+  "keywords": [
+    "YQService",
+    "oem"
+  ],
+  "homepage": "https://yqservice.eu",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YQService",
+      "homepage": "https://yqservice.eu",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">8.2.0",
+    "guzzlehttp/guzzle": "^7.5",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "YQService\\oem\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev": "1.0-dev",
+      "master": "1.0"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
